@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "aspnet-core-3-jwt-authentication-api\WebApi.csproj", "{C49F594F-61BB-40CF-B5C2-BBB1AAF045DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "blazor-webassembly-jwt-authentication-example\BlazorApp.csproj", "{FF4ACF4A-495D-48AC-B009-2F3C0EA54E54}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "angular-9-jwt-authentication-example", "angular-9-jwt-authentication-example\", "{FC9F08BA-C77E-49E3-917B-263BCABBBACC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53262"
+		Debug.AspNetCompiler.PhysicalPath = "angular-9-jwt-authentication-example\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53262\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53262"
+		Release.AspNetCompiler.PhysicalPath = "angular-9-jwt-authentication-example\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53262\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53262"
+		SlnRelativePath = "angular-9-jwt-authentication-example\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "react-jwt-authentication-example", "react-jwt-authentication-example\", "{2ADBD191-A5AE-4F88-B8AC-00DF62F362E2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53268"
+		Debug.AspNetCompiler.PhysicalPath = "react-jwt-authentication-example\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53268\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53268"
+		Release.AspNetCompiler.PhysicalPath = "react-jwt-authentication-example\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53268\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53268"
+		SlnRelativePath = "react-jwt-authentication-example\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "vue-vuex-jwt-authentication-example", "vue-vuex-jwt-authentication-example\", "{4DC131D8-620B-4897-BAE8-422ECBFBF70F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52480"
+		Debug.AspNetCompiler.PhysicalPath = "vue-vuex-jwt-authentication-example\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52480\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52480"
+		Release.AspNetCompiler.PhysicalPath = "vue-vuex-jwt-authentication-example\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52480\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52480"
+		SlnRelativePath = "vue-vuex-jwt-authentication-example\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C49F594F-61BB-40CF-B5C2-BBB1AAF045DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49F594F-61BB-40CF-B5C2-BBB1AAF045DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49F594F-61BB-40CF-B5C2-BBB1AAF045DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49F594F-61BB-40CF-B5C2-BBB1AAF045DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4ACF4A-495D-48AC-B009-2F3C0EA54E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4ACF4A-495D-48AC-B009-2F3C0EA54E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4ACF4A-495D-48AC-B009-2F3C0EA54E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4ACF4A-495D-48AC-B009-2F3C0EA54E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9F08BA-C77E-49E3-917B-263BCABBBACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9F08BA-C77E-49E3-917B-263BCABBBACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9F08BA-C77E-49E3-917B-263BCABBBACC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9F08BA-C77E-49E3-917B-263BCABBBACC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2ADBD191-A5AE-4F88-B8AC-00DF62F362E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADBD191-A5AE-4F88-B8AC-00DF62F362E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADBD191-A5AE-4F88-B8AC-00DF62F362E2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADBD191-A5AE-4F88-B8AC-00DF62F362E2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4DC131D8-620B-4897-BAE8-422ECBFBF70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC131D8-620B-4897-BAE8-422ECBFBF70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC131D8-620B-4897-BAE8-422ECBFBF70F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC131D8-620B-4897-BAE8-422ECBFBF70F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74DB9B1A-5273-4D48-8A5D-6ACCDE91EA87}
+	EndGlobalSection
+EndGlobal
